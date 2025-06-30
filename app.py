@@ -79,7 +79,7 @@ def train_model(df):
 # --- Mulai Aplikasi Streamlit ---
 
 st.set_page_config(page_title="Prediksi Harga Laptop", layout="wide")
-st.title(" SIstem Prediksi Harga Laptop")
+st.title(" Sistem Prediksi Harga Laptop")
 st.write("Sistem ini memprediksi harga laptop berdasarkan spesifikasi yang Anda pilih. Dibuat sebagai proyek praktikum Data Mining Menggunakan Algoritma Random Forest.")
 
 # Memuat data
