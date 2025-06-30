@@ -79,8 +79,8 @@ def train_model(df):
 # --- Mulai Aplikasi Streamlit ---
 
 st.set_page_config(page_title="Prediksi Harga Laptop", layout="wide")
-st.title("💻 Aplikasi Prediksi Harga Laptop")
-st.write("Aplikasi ini memprediksi harga laptop berdasarkan spesifikasi yang Anda pilih. Dibuat sebagai proyek praktikum Data Mining.")
+st.title(" SIstem Prediksi Harga Laptop")
+st.write("Sistem ini memprediksi harga laptop berdasarkan spesifikasi yang Anda pilih. Dibuat sebagai proyek praktikum Data Mining Menggunakan Algoritma Random Forest.")
 
 # Memuat data
 try:
@@ -145,7 +145,7 @@ if st.button('Prediksi Harga', use_container_width=True, type="primary"):
     st.markdown(f"<p style='text-align: center; color: grey;'>(Prediksi harga dalam Euro: €{price_prediction_euros[0]:,.2f})</p>", unsafe_allow_html=True)
 
 
-st.sidebar.info("Dibuat oleh [Nama Anda] - [NIM Anda]")
+st.sidebar.info("Dibuat oleh Adam Webdev Dan TIM - [312210242]")
 st.sidebar.markdown("---")
 st.sidebar.header("Tentang Proyek")
 st.sidebar.write("Praktikum Data Mining 2025")
