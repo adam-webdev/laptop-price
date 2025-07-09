@@ -80,7 +80,7 @@ def train_model(df):
 
 st.set_page_config(page_title="Prediksi Harga Laptop", layout="wide")
 st.title(" Sistem Prediksi Harga Laptop")
-st.write("Sistem ini memprediksi harga laptop berdasarkan spesifikasi yang Anda pilih. Dibuat sebagai proyek praktikum Data Mining Menggunakan Algoritma Random Forest.")
+st.write("Sistem ini memprediksi harga laptop berdasarkan spesifikasi yang Anda pilih. Dibuat sebagai proyek  Data Mining Menggunakan Algoritma Random Forest.")
 
 # Memuat data
 try:
@@ -145,10 +145,10 @@ if st.button('Prediksi Harga', use_container_width=True, type="primary"):
     st.markdown(f"<p style='text-align: center; color: grey;'>(Prediksi harga dalam Euro: €{price_prediction_euros[0]:,.2f})</p>", unsafe_allow_html=True)
 
 
-st.sidebar.info("Dibuat oleh Adam Webdev Dan TIM - [312210242]")
+st.sidebar.info("Dibuat oleh Adam Webdev - [312210242]")
 st.sidebar.markdown("---")
 st.sidebar.header("Tentang Proyek")
-st.sidebar.write("Praktikum Data Mining 2025")
-st.sidebar.write("Dataset: Laptop Price dari Kaggle.")
+st.sidebar.write(" Data Mining 2025")
+st.sidebar.write("Dataset: Laptop Price  Kaggle.")
 st.sidebar.write("Algoritma: Random Forest Regressor.")
 st.sidebar.write(f"Kurs: 1 Euro = Rp {KURS_EURO_TO_IDR:,.0f}")
